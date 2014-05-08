@@ -1,0 +1,7 @@
+{
+    "packageName":  "example-map",
+    "longName":     "Example Map",
+    "description":  "Interactive satellite viewer",
+    "url":          "https://example.com",
+    "email":        "support@example.com"
+}

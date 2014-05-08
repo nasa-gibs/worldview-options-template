@@ -1,0 +1,17 @@
+{
+    "wv-options-fetch": [
+        {
+            "from": "https://map1.vis.earthdata.nasa.gov/wmts-geo/wmts.cgi?request=GetCapabilities",
+            "to": "gibs-geographic.xml"
+        }
+    ],
+    "wv-options-wmts": [
+        {
+            "source": "GIBS:geographic",
+            "from": "gibs-geographic.xml",
+            "to": "gibs-geographic.json",
+            "projection": "geographic",
+            "maxResolution": 0.5625
+        }
+    ]
+}

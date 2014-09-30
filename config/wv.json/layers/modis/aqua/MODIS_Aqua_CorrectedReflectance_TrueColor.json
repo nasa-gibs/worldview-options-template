@@ -5,7 +5,19 @@
             "title":    "Corrected Reflectance (True Color)",
             "subtitle": "Aqua / MODIS",
             "tags":     "natural color cr",
-            "group":    "baselayers"
+            "group":    "baselayers",
+
+            "format":       "image/jpeg",
+            "period":       "daily",
+            "startDate":    "2015-05-06",
+            "type":         "wmts",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_250m",
+                    "source":       "GIBS:geographic"
+                }
+            }
         }
     }
 }

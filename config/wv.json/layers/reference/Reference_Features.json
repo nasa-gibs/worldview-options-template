@@ -1,0 +1,22 @@
+{
+    "layers": {
+        "Reference_Features": {
+            "id":       "Reference_Features",
+            "title":    "Coastlines / Borders / Roads",
+            "subtitle": "&copy; OpenStreetMap <a target='_blank' href='http://www.openstreetmap.org/copyright'>(license)</a>, Natural Earth",
+            "tags":     "osm reference",
+            "group":    "overlays",
+
+            "format":       "image/png",
+            "type":         "wmts",
+            "noTransition": "true",
+
+            "projections": {
+                "geographic": {
+                    "matrixSet":    "EPSG4326_250m",
+                    "source":       "GIBS:geographic"
+                }
+            }
+        }
+    }
+}
